@@ -1,24 +1,5 @@
-================================================================================
-TRAFFIC ACCIDENT ANALYSIS IN WASHINGTON DC
-CSCI 6443 Data Mining - Final Project
-Student: Nikita Ravi
-Date: December 4, 2025
-================================================================================
 
-TABLE OF CONTENTS
------------------
-1. Project Overview
-2. System Requirements
-3. Installation Instructions
-4. How to Run the Project
-5. File Descriptions
-6. Expected Outputs
-7. Troubleshooting
-8. Contact Information
-
-================================================================================
 1. PROJECT OVERVIEW
-================================================================================
 
 This project performs comprehensive data mining analysis on traffic accident
 data from Washington DC (2000-2024). The analysis includes:
@@ -32,9 +13,7 @@ data from Washington DC (2000-2024). The analysis includes:
 Dataset: Crashes_in_DC.csv (340,322 accidents, 66 features)
 Source: DC Open Data Portal
 
-================================================================================
 2. SYSTEM REQUIREMENTS
-================================================================================
 
 Required Software:
 - Google Colab (Recommended) OR
@@ -55,12 +34,10 @@ Required Python Libraries:
 
 All libraries will be installed automatically in the notebook.
 
-================================================================================
 3. INSTALLATION INSTRUCTIONS
-================================================================================
 
 OPTION A: Google Colab (Recommended - No Installation Required)
-----------------------------------------------------------------
+
 1. Go to https://colab.research.google.com/
 2. Click "File" → "Upload notebook"
 3. Upload "Traffic_Accident_Analysis_DC_IMPROVED.ipynb"
@@ -68,7 +45,7 @@ OPTION A: Google Colab (Recommended - No Installation Required)
 5. Run all cells sequentially
 
 OPTION B: Local Jupyter Notebook
----------------------------------
+
 1. Install Python 3.8+ from https://www.python.org/
 2. Install Jupyter:
    pip install jupyter
@@ -81,17 +58,16 @@ OPTION B: Local Jupyter Notebook
 6. Open "Traffic_Accident_Analysis_DC_IMPROVED.ipynb"
 7. Run all cells sequentially
 
-================================================================================
 4. HOW TO RUN THE PROJECT
-================================================================================
+
 
 STEP 1: Upload Data File
--------------------------
+
 When you run Cell 5, you'll be prompted to upload "Crashes_in_DC.csv"
 Click "Choose Files" and select the CSV file from the project directory.
 
 STEP 2: Run All Cells Sequentially
------------------------------------
+
 Execute cells in order from top to bottom:
 - Cell 1-4:   Setup and library imports
 - Cell 5-6:   Data loading
@@ -104,7 +80,7 @@ Execute cells in order from top to bottom:
 - Cell 41-43: Final summary and downloads
 
 STEP 3: Review Outputs
-----------------------
+
 As cells execute, you'll see:
 - Progress messages and statistics
 - Visualization plots
@@ -112,47 +88,39 @@ As cells execute, you'll see:
 - Model performance metrics
 
 STEP 4: Download Results
--------------------------
+
 Cell 43 will automatically download all generated files:
 - PNG images (visualizations)
 - HTML files (interactive maps)
 
 Total runtime: Approximately 15-25 minutes (depends on system)
 
-================================================================================
+
 5. FILE DESCRIPTIONS
-================================================================================
+
 
 Source Code:
-------------
+
 Traffic_Accident_Analysis_DC_IMPROVED.ipynb
   - Main Jupyter notebook with complete analysis
   - 43 code cells with markdown documentation
   - Includes all data mining techniques
 
 Input Data:
------------
+
 Crashes_in_DC.csv
   - Traffic accident data from DC (2000-2024)
   - 340,322 rows × 66 columns
   - Size: ~150 MB
   - Source: DC Open Data Portal
 
-Documentation:
---------------
-Project_Paper.docx
-  - Complete project report (10-15 pages)
-  - Methodology, results, and analysis
 
-User_Manual.docx
-  - Step-by-step user guide (5-8 pages)
-  - Screenshots and examples
 
 README.txt
   - This file - Quick start guide
 
 Generated Outputs (after running):
-----------------------------------
+
 VISUALIZATIONS (PNG files):
   - eda_overview.png                    - EDA summary charts
   - monthly_trend.png                   - Crash trends over time
@@ -171,9 +139,9 @@ DATA OUTPUTS (CSV files - optional):
   - clustering_results.csv             - Cluster assignments
   - association_rules.csv              - Discovered rules
 
-================================================================================
+
 6. EXPECTED OUTPUTS
-================================================================================
+
 
 After running the complete notebook, you should see:
 
@@ -208,9 +176,9 @@ VISUALIZATIONS:
   ✓ 2 interactive HTML maps
   ✓ Detailed confusion matrices
 
-================================================================================
+
 7. TROUBLESHOOTING
-================================================================================
+
 
 COMMON ISSUES AND SOLUTIONS:
 
@@ -249,22 +217,6 @@ Issue: Package installation fails
 Solution: Run this in a code cell:
   !pip install --upgrade mlxtend folium holidays
 
-================================================================================
-8. CONTACT INFORMATION
-================================================================================
-
-Student: Nikita Ravi
-Course: CSCI 6443 Data Mining
-Date: December 4, 2025
-
-For questions or issues:
-- Refer to User_Manual.docx for detailed instructions
-- Refer to Project_Paper.docx for methodology details
-- Check code comments in the notebook for specific functions
-
-================================================================================
-END OF README
-================================================================================
 
 QUICK START REMINDER:
 1. Upload notebook to Google Colab
